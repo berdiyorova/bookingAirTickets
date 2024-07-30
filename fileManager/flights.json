@@ -1,0 +1,20 @@
+[
+    {
+        "plane": {
+            "id": 1,
+            "name": "A201",
+            "capacity": 30
+        },
+        "from_country": {
+            "name": "Tashkent",
+            "country": "Uzbekistan"
+        },
+        "to_country": {
+            "name": "Singapur",
+            "country": "Singapur"
+        },
+        "flight_time": "2024-07-24 22:30:00",
+        "landing_time": "2024-07-25 09:15:00",
+        "price": "45.6"
+    }
+]

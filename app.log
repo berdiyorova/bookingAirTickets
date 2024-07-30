@@ -1,0 +1,20 @@
+2024-07-28 08:50:45 - except_log - INFO - Function: auth_menu: args: () kwargs: {} result: None
+2024-07-28 08:51:02 - except_log - INFO - Function: auth_menu: args: () kwargs: {} result: None
+2024-07-28 08:52:04 - except_log - ERROR - Function: auth_menu: list index out of range
+Traceback (most recent call last):
+  File "C:\Users\user\Desktop\Najot Ta'lim\Lessons\month-4\lesson-4\Homework\except_log.py", line 25, in wrapper
+    result = func(*args, **kwargs)
+             ^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\Najot Ta'lim\Lessons\month-4\lesson-4\Homework\app.py", line 91, in auth_menu
+    login()
+  File "C:\Users\user\Desktop\Najot Ta'lim\Lessons\month-4\lesson-4\Homework\app.py", line 71, in login
+    return admin_menu(phone)
+           ^^^^^^^^^^^^^^^^^
+  File "C:\Users\user\Desktop\Najot Ta'lim\Lessons\month-4\lesson-4\Homework\admin_app.py", line 420, in admin_menu
+    flight_menu()
+  File "C:\Users\user\Desktop\Najot Ta'lim\Lessons\month-4\lesson-4\Homework\admin_app.py", line 394, in flight_menu
+    add_flight()
+  File "C:\Users\user\Desktop\Najot Ta'lim\Lessons\month-4\lesson-4\Homework\admin_app.py", line 195, in add_flight
+    landing_place = Airport(airports[index]['name'], airports[index]['country'])
+                            ~~~~~~~~^^^^^^^
+IndexError: list index out of range

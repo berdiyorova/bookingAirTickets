@@ -1,0 +1,28 @@
+[
+    {
+        "passenger": {
+            "passport": "AA5641851",
+            "email": "karimjon@gmail.com",
+            "phone": "444"
+        },
+        "plain": "A201",
+        "from_country": "Uzbekistan",
+        "to_country": "Singapur",
+        "flight_time": "2024-07-24 22:30:00",
+        "landing_time": "2024-07-25 09:15:00",
+        "price": "45.6"
+    },
+    {
+        "passenger": {
+            "passport": "AA5641851",
+            "email": "salimov@mail.ru",
+            "phone": "444"
+        },
+        "plain": "A201",
+        "from_country": "Uzbekistan",
+        "to_country": "Singapur",
+        "flight_time": "2024-07-24 22:30:00",
+        "landing_time": "2024-07-25 09:15:00",
+        "price": "45.6"
+    }
+]
